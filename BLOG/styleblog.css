@@ -1,0 +1,614 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:black;
+}
+body, div, header, nav, ul, h1, h2, p{
+    box-sizing: border-box;
+}
+.nav{
+    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content:center;
+    padding-right: 44px;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+@media  screen and (max-width:650px) {
+    .nav{
+        font-size: 16px;
+        padding-right: 22px;
+    }
+    
+}
+.div__logo, .div__nav, .div__whatsapp{
+    flex-grow:inherit;
+    
+}
+.nav__ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.nav__item{
+    list-style: none;
+    flex-grow: inherit;
+    
+    
+}
+.nav__link{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px;
+    margin: 20px;
+    transition: background-color 0.3s, border-radius 0.24s;
+}
+.nav__link:hover{
+    background-color: rgb(43, 40, 40);
+    border-radius: 15px;
+
+}
+@media  screen and (max-width:650px) {
+    .nav__link{
+    margin:10px;
+}
+
+}
+.nav__logo{
+    width: 150px;
+    height: 70px;
+}
+@media  screen and (max-width:650px) {
+    .nav__logo{
+        width:100px;
+        height:50px;
+    }
+    
+}
+/*WHATSAPP*/
+.div__whatsapp{
+    margin-left: 4px;
+}
+.nav__link-whatsapp{
+    
+    width: 90px;
+    height: 70px;
+    transition: width 0.3s, height 0.3s;
+}
+.nav__link-whatsapp:hover{
+    width: 95px;
+    height: 70px;
+}
+@media  screen and (max-width:650px) {
+    .nav__link-whatsapp{
+        width: 70px;
+        height: 50px;
+        
+    }
+    
+}
+.div__estilos{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+    
+}
+.p__estilos{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__estilos{
+    margin: auto;
+}
+.img__estilos img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__estilos{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__estilos img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__estilos{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__estilos img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__estilos{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__estilos img{
+        width: 170px;
+        height:160px;
+    }
+}
+/*BLOG BLOG BLOG */
+/*ESTILOS*/
+.div__estilos{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__estilos{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__estilos{
+    margin: auto;
+}
+.img__estilos img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__estilos{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__estilos img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__estilos{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__estilos img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__estilos{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__estilos img{
+        width: 170px;
+        height:160px;
+    }
+}
+/*TRADICIONAL*/
+
+.estilo__tradicional{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__tradicional{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__tradicional{
+    margin: auto;
+}
+.img__tradicional img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__tradicional{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__tradicional img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__tradicional{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__tradicional img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__tradicional{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__tradicional img{
+        width: 170px;
+        height:160px;
+    }
+}
+
+
+/*NEOTRADICIONAL*/
+.estilo__neo{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__neo{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__neo{
+    margin: auto;
+}
+.img__neo img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__neo{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__neo img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__neo{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__neo img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__neo{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__neo img{
+        width: 170px;
+        height:160px;
+    }
+}
+
+/*BLACKWORK*/
+.estilo__blackwork{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__blackwork{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__blackwork{
+    margin: auto;
+}
+.img__blackwork img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__blackwork{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__blackwork img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__blackwork{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__blackwork img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__blackwork{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__blackwork img{
+        width: 170px;
+        height:160px;
+    }
+}
+
+/*JAPONES*/
+.estilo__japones{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__japones{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__japones{
+    margin: auto;
+}
+.img__japones img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__japones{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__japones img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__japones{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__japones img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__japones{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__japones img{
+        width: 170px;
+        height:160px;
+    }
+}
+
+/*TRIBAL*/
+.estilo__tribal{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__tribal{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__tribal{
+    margin: auto;
+}
+.img__tribal img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__tribal{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__tribal img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__tribal{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__tribal img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__tribal{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__tribal img{
+        width: 170px;
+        height:160px;
+    }
+}
+
+/*LETTERING*/
+.estilo__lettering{
+    margin:auto;
+    width: 95%;
+    display: flex; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+.p__lettering{
+    margin: auto;
+    width:500px; 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "montserrat";
+    text-align: start;
+}
+.img__lettering{
+    margin: auto;
+}
+.img__lettering img{
+    width:450px;
+    height: 400px;
+}
+@media screen and (max-width:1100px){
+    .p__lettering{
+        font-size: 20px;
+        width: 350px;
+    }
+    .img__lettering img{
+        width: 350px;
+        height:320px;
+    }
+}
+@media screen and (max-width:760px){
+    .p__lettering{
+        font-size: 15px;
+        width:250px;
+    }
+    .img__lettering img{
+        width: 280px;
+        height:250px;
+    }
+}
+@media screen and (max-width:590px){
+    .p__lettering{
+        font-size: 10px;
+        width: 200px;
+    }
+    .img__lettering img{
+        width: 170px;
+        height:160px;
+    }
+}
+/*FOOTER*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    padding-right: 0;
+    font-size: 22px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    height:70px;
+}
+
+.div__derechos-de-autor{
+    width: 200px;
+    color: white;
+    height: 70px;
+}
+@media  screen and (max-width:650px) {
+    .div__derechos-de-autor{
+        width: 120px;
+    }
+}
+
+.titulo__autor{
+    width: 350px;
+    color: white;
+    height: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+@media  screen and (max-width:650px) {
+    .titulo__autor{
+        font-size: 10px;
+        width: 200px;
+        
+        
+    }
+}
+.div__instagram img{
+    width: 110px;
+    height: 70px;
+    transition:width 0.3s, height0.3;
+} 
+.div__instagram img:hover{
+    width:115px;
+    height:75px;
+} 
+@media  screen and (max-width:650px) {
+    .div__instagram img{
+        width: 70px;
+        height: 50px;
+    }
+}
+.div__facebook img{
+    width: 120px;
+    height: 70px;
+    transition:width 0.3s, height0.3;
+}
+.div__facebook img:hover{
+    width:125px;
+    height:75px;
+} 
+@media  screen and (max-width:650px) {
+    .div__facebook img{
+        width: 70px;
+        height: 50px;
+    }
+}
+.div__tiktok img{
+    width: 120px;
+    height: 70px;
+    transition:width 0.3s, height0.3;
+} 
+.div__tiktok img:hover{
+    width:125px;
+    height:75px;
+} 
+
+@media  screen and (max-width:650px) {
+    .div__tiktok img{
+        width: 70px;
+        height: 50px;
+    }
+}
